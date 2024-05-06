@@ -44,3 +44,7 @@ main {
     flex-direction: column;
 }
 
+.profile-head {
+    display: flex;
+}
+
