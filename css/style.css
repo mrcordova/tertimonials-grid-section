@@ -22,3 +22,8 @@
     font-weight: 600;
     font-style: normal;
 }
+
+main {
+    display: flex;
+    flex-direction: column;
+}
