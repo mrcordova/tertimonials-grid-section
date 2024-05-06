@@ -46,8 +46,8 @@ body {
 }
 
 main {
-    display: flex;
-    flex-direction: column;
+    display: grid;
+    grid: repeat(5, 1fr) / 1fr
 }
 
 .profile-head {
