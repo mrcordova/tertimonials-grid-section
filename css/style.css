@@ -50,20 +50,20 @@ main {
     flex-direction: column;
 }
 
-
 .profile-head {
     display: flex;
     align-items: center;
 }
 
 .profile-head>img {
-    border: 1px solid rgba(256, 256, 256, 0.5);
+    border: 2px solid rgba(256, 256, 256, 0.2);
     border-radius: 100px;
 
 }
 
 .profile-text>p {
     margin: 0;
+    padding-inline-start: 1em;
 }
 .profile-text>.title {
     opacity: 50%;
