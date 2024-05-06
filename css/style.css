@@ -23,6 +23,14 @@
     font-style: normal;
 }
 
+body {
+    font-size: var(--body-font-size);
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    
+}
+
 main {
     display: flex;
     flex-direction: column;
