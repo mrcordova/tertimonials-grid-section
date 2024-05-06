@@ -25,7 +25,7 @@
 }
 
 body {
-    font-size: var(--body-font-size);
+    font-size: clamp(var(--body-font-size), calc(var(--body-font-size) + 1.35vw), 3em);
     display: flex;
     flex-direction: column;
     justify-content: space-between;
@@ -33,7 +33,10 @@ body {
 }
 
 .card {
-    border: 1px solid black
+    border: 1px solid black;
+    margin: 1.23em;
+    padding: 1.25em;
+    border-radius: 10px;
 }
 
 main {
