@@ -5,7 +5,7 @@
     --white: hsl(0, 0%, 100%);
 /*   used for body   */
     --light-gray: hsl(0, 0%, 81%);  
-    
+
     --light-grayish-blue: hsl(210, 46%, 95%);
 
     --body-font-size: 13px;
@@ -32,7 +32,12 @@ body {
     background-color: var(--light-grayish-blue);
 }
 
+.card {
+    border: 1px solid black
+}
+
 main {
     display: flex;
     flex-direction: column;
 }
+
