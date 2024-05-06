@@ -45,7 +45,9 @@ body {
     
     background: var(--mod-violet) url('../images/bg-pattern-quotation.svg') no-repeat 80% 3% fixed;
 }
-
+.john {
+    background-color: var(--very-dark-grayish-blue);
+}
 main {
     display: grid;
     grid: repeat(5, 1fr) / 1fr
