@@ -33,7 +33,7 @@ body {
 }
 
 .card {
-    border: 1px solid black;
+    
     margin: 1.23em;
     padding: 1.75em;
     border-radius: 10px;
@@ -41,10 +41,8 @@ body {
 }
 
 .daniel {
-    background-color: var(--mod-violet);
-    background-image: url(/images/bg-pattern-quotation.svg);
-    background-repeat: no-repeat;
-    background-position: 90% top;
+  
+    background: var(--mod-violet) url('../images/bg-pattern-quotation.svg') no-repeat 80% 5% fixed;
 }
 
 main {
