@@ -37,6 +37,12 @@ body {
     margin: 1.23em;
     padding: 1.75em;
     border-radius: 10px;
+    color: var(--white);
+}
+
+.daniel {
+    background-color: var(--mod-violet);
+    background-image: url(images/bg-pattern-quotation.svg);
 }
 
 main {
@@ -54,4 +60,11 @@ main {
     border: 3px solid var(--mod-violet);
     border-radius: 100px;
 
+}
+
+.profile-text>p {
+    margin: 0;
+}
+.profile-text>.title {
+    opacity: 50%;
 }
