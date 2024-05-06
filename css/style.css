@@ -59,7 +59,7 @@ main {
 }
 
 .profile-head>img {
-    border: 3px solid var(--mod-violet);
+    border: 1px solid rgba(256, 256, 256, 0.5);
     border-radius: 100px;
 
 }
