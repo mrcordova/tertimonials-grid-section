@@ -33,16 +33,15 @@ body {
 }
 
 .card {
-    
-    margin: 1.23em;
+    margin: 0.75em;
     padding: 1.75em;
     border-radius: 10px;
     color: var(--white);
 }
 
 .daniel {
-  
-    background: var(--mod-violet) url('../images/bg-pattern-quotation.svg') no-repeat 80% 5% fixed;
+    
+    background: var(--mod-violet) url('../images/bg-pattern-quotation.svg') no-repeat 80% 3% fixed;
 }
 
 main {
@@ -67,4 +66,8 @@ main {
 }
 .profile-text>.title {
     opacity: 50%;
+}
+
+.p-title {
+    font-size: 1.75em;
 }
