@@ -44,7 +44,14 @@ main {
     flex-direction: column;
 }
 
+
 .profile-head {
     display: flex;
+    align-items: center;
 }
 
+.profile-head>img {
+    border: 3px solid var(--mod-violet);
+    border-radius: 100px;
+
+}
