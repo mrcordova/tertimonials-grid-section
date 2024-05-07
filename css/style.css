@@ -41,10 +41,14 @@ body {
 }
 .card>q {
     opacity: 70%;
+    font-size: 1.20em;
 }
 .daniel {
-    
     background: var(--mod-violet) url('../images/bg-pattern-quotation.svg') no-repeat 80% 3% fixed;
+}
+.jean {
+    background-color: var(--white);
+    color: var(--very-dark-blackish-blue);
 }
 .john {
     background-color: var(--very-dark-grayish-blue);
@@ -53,9 +57,11 @@ main {
     display: grid;
     grid: auto / 1fr;
     gap: 1em;
- 
 }
 
+.pat {
+    background-color: var(--very-dark-blackish-blue);
+}
 .profile-head {
     display: flex;
     align-items: center;
@@ -67,6 +73,9 @@ main {
 }
 .profile-head>.daniel-pic {
     border: 2px solid rgba(256, 256, 256, 0.2);
+}
+.profile-head>.pat-pic {
+    border: 2px solid var(--mod-violet);
 }
 .profile-text>p {
     margin: 0;
